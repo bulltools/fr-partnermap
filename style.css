@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Avenir';
-    src: url(/assets/fonts/Avenir-Regular.woff2) format('woff2'),
-    url(/assets/fonts/Avenir.ttc) format('truetype');
+    src:url(/assets/fonts/AvenirLTStd-Book.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
@@ -19,7 +19,10 @@ body { margin:0; padding:0; }
 
 .corner-popup {
     position: fixed;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
     top: 10px;
     right: 10px;
     z-index: 1000;
