@@ -202,7 +202,7 @@ const distributors = [
         "info": "ingenio by Phytronix breaks the mold by offering analytical instrumentation and services for laboratories. Naturally, this offers us the chance to have a privileged relationship with our clients to fulfill their needs, whatever they may be.",
         "contact": "Contact",
         "website": "https://www.stellarscientific.com/flowbot-one-liquid-handling-robotic-system/",
-        "logo": "assets/logos/phytronix.png"
+        "logo": "assets/logos/ingenio.png"
       },
     {
         "name": "Meslo",

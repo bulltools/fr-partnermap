@@ -5,8 +5,9 @@ var map = L.map('distributors').setView([50, -20], 3);
 
 
 // Mapbox tile layer (eksternt library som giver mulighed for at tilpasse kortet)
-var accessToken = 'pk.eyJ1IjoiZmxvd2dhYiIsImEiOiJjbHAxYTdoYTkwaTVlMmlsZ3M1d3g0amt6In0.Ch98Rv2b3fNogJ2YViqPsw';
-L.tileLayer('https://api.mapbox.com/styles/v1/flowgab/cloyku9q8002g01qu62cl63n5/tiles/512/{z}/{x}/{y}?access_token=' + accessToken, {
+
+
+L.tileLayer('https://api.mapbox.com/styles/v1/flowgab/cloyku9q8002g01qu62cl63n5/tiles/512/{z}/{x}/{y}?access_token=' + process.env.AT, {
     maxZoom: 10,
     minZoom: 3,
     tileSize: 512,
