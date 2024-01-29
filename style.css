@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url(/assets/fonts/Avenir.ttc);
+    font-weight: normal;
+    font-style: normal;
+}
+
 body { margin:0; padding:0; }
 #distributors { position:absolute; top:0; bottom:0; right:0; left:0; height:700px;}
 
